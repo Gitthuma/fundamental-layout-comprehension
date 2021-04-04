@@ -63,3 +63,10 @@ nav {
   position: sticky;
   top: 0;
 }
+
+/*Wraps text around the image inside the article*/
+
+.feature {
+  float: left;
+  margin-right: 20px;
+}
