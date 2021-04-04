@@ -70,3 +70,11 @@ nav {
   float: left;
   margin-right: 20px;
 }
+
+/*Creates two flexible columns for the <article> and <aside>*/
+
+.grid {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  column-gap: 20px;
+}
