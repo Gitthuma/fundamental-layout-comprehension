@@ -56,3 +56,10 @@ nav ul {
   display: flex;
   justify-content: space-between;
 }
+
+/*Makes the navigation bar scrolls with the content and then become stuck at the top of the viewport when it reaches it.*/
+
+nav {
+  position: sticky;
+  top: 0;
+}
