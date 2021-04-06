@@ -54,6 +54,7 @@ nav a {
 
 nav ul {
   display: flex;
+  flex-flow: row wrap; /*row is for direction of content and wrap pushes overflow to the enxt line*/
   justify-content: space-between;
 }
 
